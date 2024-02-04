@@ -6,6 +6,11 @@
   color: hsl(228, 45%, 44%);
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 img {
   display: block;
   max-width: 100%;
@@ -40,8 +45,8 @@ button {
 }
 .items {
   display: flex;
-  padding: 40px;
-  margin: 100px;
+  padding: 80px;
+  margin: 60px 40px 40px 40px;
   box-shadow: 0px 0px 14px 0px #00000047;
   border-radius: 15px;
 }
@@ -52,6 +57,9 @@ button {
 .pink{
   background-color: hsl(322, 100%, 66%);
   color: white;
+}
+.pink:hover{
+  background-color:hsla(322, 100%, 66%, 0.589) ;
 }
 
 .center{
@@ -71,4 +79,56 @@ button {
 }
 .center h2{
   padding: 48px 0 0 96px;
+}
+.box{
+  position: absolute;
+  top: -150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 0px 14px 0px #ffffff;
+  width: 650px;
+  height: 250px;
+  color: black;
+
+}
+.forth-item{
+  margin-bottom: 150px;
+}
+.my-footer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 20px 150px 20px 150px;
+  gap: 40px;
+  height: 500px;
+}
+
+li{
+  list-style: none;
+}
+.my-footer p{
+  max-width: 300px;
+}
+
+.footer-items{
+  display: flex;
+  align-items: center;
+  
+
+
+}
+
+.footer-items img{
+  padding-right: 10px;
+}
+.itemss{
+  padding-top: 250px;
+
 }

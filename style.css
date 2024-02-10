@@ -6,7 +6,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -54,33 +54,32 @@ button {
 .third-item {
   flex-direction: row-reverse;
 }
-.pink{
+.pink {
   background-color: hsl(322, 100%, 66%);
   color: white;
 }
-.pink:hover{
-  background-color:hsla(322, 100%, 66%, 0.589) ;
+.pink:hover {
+  background-color: hsla(322, 100%, 66%, 0.589);
 }
 
-.center{
+.center {
   display: flex;
   justify-content: center;
   align-items: left;
   flex-direction: column;
 }
-.main p{
+.main p {
   color: hsl(208, 11%, 55%);
-
 }
 
-.center p{
+.center p {
   color: hsl(208, 11%, 55%);
   padding: 0 178px 0 96px;
 }
-.center h2{
+.center h2 {
   padding: 48px 0 0 96px;
 }
-.box{
+.box {
   position: absolute;
   top: -150px;
   border-radius: 20px;
@@ -93,16 +92,25 @@ button {
   width: 650px;
   height: 250px;
   color: black;
-
 }
-.forth-item{
-  margin-bottom: 150px;
+.forth-item {
+  margin-bottom: 180px;
 }
-.my-footer{
+.icons {
+  width: 35px;
+  height: 35px;
+  padding-top: 3px;
+  border: 1px solid white;
+  border-radius: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-footer {
   position: relative;
   display: flex;
   justify-content: center;
-  /* flex-direction: row; */
   background-color: hsl(192, 100%, 9%);
   color: white;
   padding: 20px 150px 20px 150px;
@@ -110,25 +118,31 @@ button {
   height: 500px;
 }
 
-li{
+li {
   list-style: none;
 }
-.my-footer p{
+.my-footer p {
   max-width: 300px;
 }
 
-.footer-items{
+.footer-items {
   display: flex;
   align-items: center;
-  
-
-
 }
 
-.footer-items img{
+#icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-items img {
   padding-right: 10px;
 }
-.itemss{
+.itemss {
   padding-top: 250px;
-
+}
+.itemss p {
+  display: flex;
+  align-items: flex-end;
 }
